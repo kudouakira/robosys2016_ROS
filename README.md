@@ -1,1 +1,1 @@
-# robosys2016_ROS
+# robosys2016_ROS##LICENSE    LICENSEファイル参照  ##内容    * scripts/~      授業スライド内にあったmypkgの内容    * src/~      * feelings.cpp ... "Happy","Sad","Anger"の３つの単語を順々にtopic dataとして排出  	* faces_word.cpp ... 上記の３単語にあった顔文字を表示  ##実行例  ` $ roscore &      $ rosrun robosys2016_ROS feelings &  	$ rosrun robosys2016_ROS faces_word  `  ##実行動画   URL : https://youtu.be/Z79FdcS41qc###参考文献 * 銭　飛　：ROSプログラミング, 森北出版, 2016
