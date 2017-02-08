@@ -185,3 +185,9 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+add_executable(feelings src/feelings.cpp)
+target_link_libraries(feelings ${catkin_LIBRARIES})
+
+add_executable(faces_word src/faces_word.cpp)
+target_link_libraries(faces_word ${catkin_LIBRARIES})
